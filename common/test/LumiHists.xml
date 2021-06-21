@@ -9,27 +9,27 @@
 <!--
         <InputData Lumi="1" NEventsMax="-1" Type="DATA" Version="SingleMu" Cacheable="False">
 	    &DATA_SingleMu;
-            <InputTree Name="AnalysisTree" /> 
+            <InputTree Name="AnalysisTree" />
         </InputData>
 -->
 	<InputData Lumi="1" NEventsMax="100000" Type="DATA" Version="SingleEle" Cacheable="True">
 	    &DATA_SingleEle;
-            <InputTree Name="AnalysisTree" /> 
-        </InputData>  
+            <InputTree Name="AnalysisTree" />
+        </InputData>
 
 <!--
 	<InputData Lumi="1" NEventsMax="-1" Type="DATA" Version="JetHT" Cacheable="False">
 	    &DATA_JetHT;
-            <InputTree Name="AnalysisTree" /> 
-        </InputData>  
+            <InputTree Name="AnalysisTree" />
+        </InputData>
 -->
         <UserConfig>
-            <Item Name="ElectronCollection" Value="slimmedElectronsUSER" />
+            <Item Name="ElectronCollection" Value="slimmedElectrons" />
 	    <Item Name="PrimaryVertexCollection" Value="offlineSlimmedPrimaryVertices" />
             <Item Name="lumi_file" Value="/afs/desy.de/user/p/peiffer/xxl-af-cms/CMSSW_8_0_24_patch1/src/UHH2/common/data/Cert_271036-284044_13TeV_23Sep2016ReReco_Collisions16_JSON.root" />
             <Item Name="lumihists_lumi_per_bin" Value="1000"/>
 
-            <Item Name="AnalysisModule" Value="TestLumiHists" /> 
+            <Item Name="AnalysisModule" Value="TestLumiHists" />
 	</UserConfig>
     </Cycle>
 </JobConfiguration>

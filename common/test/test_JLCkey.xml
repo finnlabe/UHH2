@@ -23,7 +23,7 @@
     <UserConfig>
       <Item Name="PrimaryVertexCollection" Value="offlineSlimmedPrimaryVertices"/>
       <Item Name="GenParticleCollection"   Value="GenParticles"/>
-      <Item Name="ElectronCollection"      Value="slimmedElectronsUSER"/>
+      <Item Name="ElectronCollection"      Value="slimmedElectrons"/>
       <Item Name="MuonCollection"          Value="slimmedMuonsUSER"/>
       <Item Name="TauCollection"           Value="slimmedTaus"/>
       <Item Name="JetCollection"           Value="slimmedJets"/>
